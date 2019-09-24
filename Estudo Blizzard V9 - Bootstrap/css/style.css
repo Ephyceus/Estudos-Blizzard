@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #012756;
+}
+
+.imageNavBar{
+    text-align: center;
+}
+
+.marginNav{
+    margin-right: 20px;
+}
+
+.navColor{
+    background-color: #04192d!important;
+}
+
+.imgCarrousel{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.positionDiv{
+    position: absolute;
+}
+
+.carousel-item{
+    height: 550px;
+    justify-content: center;
+}
+
+.carrouselFontWidth{
+    width: 700px;
+}
+
+.carousel-item .title{
+  color:#fff;
+  margin: 30px;
+  position:relative;
+  bottom: 550px;
+  left: 10%;
+  display: block;
+  text-decoration: none;
+}
+
+.carousel-item .title-carrers{
+    color:#fff;
+    margin: 30px;
+    position: relative;
+    bottom: 350px;
+    left: 10%;
+    display: block;
+    text-decoration: none;
+}
+
+.carrouselFont{
+  font-size: 50pt;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.btnFontWeight{
+    font-weight: normal;
+    font-size: 14pt
+}
+
+.btnWidth{
+    width: 200px;
+    height: 50px;
+}
+
+.titles{
+    display: block;
+    position: relative;
+    width: 310px;
+    left: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.marginTop{
+    margin-top: 40px;
+}
+
+.fontWhite{
+    color: white!important;
+}
+
+.gamePanelBackground{
+    padding-top: 10px;
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short-c67b55f50ca032607997398840751185782dd86436566617ed80dd553f62a890f554ca38ef1de26c6d60b4976ebea6145b9916091073d06823aa9853a093f3e7.jpg);
+    background-size: cover;
+}
+
+.gamePanel{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.gamePanelWidth{
+    width: 250px;
+    margin: 5px;
+}
+
+.marginGameList{
+    margin-bottom: 100px;
+}
+
+.borderLinks{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderLinks a{
+    margin: 15px 100px;
+}
+
+.noticePanelBackground{
+    padding: 30px;
+    padding-bottom: 100px;
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short-c67b55f50ca032607997398840751185782dd86436566617ed80dd553f62a890f554ca38ef1de26c6d60b4976ebea6145b9916091073d06823aa9853a093f3e7.jpg);
+    background-size: cover;
+}
+
+.fundoCardsNotices{
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short-c67b55f50ca032607997398840751185782dd86436566617ed80dd553f62a890f554ca38ef1de26c6d60b4976ebea6145b9916091073d06823aa9853a093f3e7.jpg);
+    color: white;
+}
+
+.fundoCarreers{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.vagasFont{
+    font-size: 28pt;
+}
+
+footer{
+    height: 600px;
+    background-position: center;
+
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/footer-bg-base-213c1567f8e4d313014e05ae3d7473bee57ad97f7b371726296167860fc074ed78733943d3211b90bfc5704106f86b94e0c368ea64527dfb0d1b069655d5dcde.jpg);
+
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/footer-bg-xs-0623ece0a042c023a57d07bb38e05cc917ff91b83df5cacbb066218f395ea7bbc23c5d4c0c96efa549891ffad6a5f5a442a678049f02228d3db926afbb69363a.jpg);
+
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/footer-bg-sm-d62dca154acdb21753ab84360f00ad398009d87d404cf92fa95e8ff42f7aa64375801f1652d3b3e0726047a9e9f23f3c2355b3032838210437ef64d49e7b5d09.jpg);
+    
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/footer-bg-md-aee55c2ff093742fb9a35c21940a26401d0f21def1d4a4618cd31b9b70173cad53f65952068efe246d4b22d6e8fcbae4e828b07f49dd83106d067fbe1e65b20f.jpg);
+
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/footer-bg-lg-1ef544513bc161835a4bb721dbde4e1b85ab57f05ddf45ececa5f68aee53273b941f2b3d3a87bf79ed16a39a84e27fe4e056f8f2396dad93d8d41f1ead4b0f63.jpg);
+}
+
+#divfooter{
+    text-align: center;
+}
+
+footer div img{
+    width: 10%;
+}
+
+#navbarfooter{
+    color: white;
+    margin: 30px 0px;
+}
+
+#navbarfooter2{
+    color: white;
+    font-size: 10pt;
+    margin: 5px;
+}
+
+footer a{
+    color: white;
+}
+
+
+
+
+/*//////////////////*/
+.panel{
+    height: 100%;
+    display: flex;
+    margin-bottom: -105px;
+}
+
+.controleDeSubMenuNav{
+    position: inherit!important;
+    width: 100%!important;
+}
+
+.gamePanelMenu{
+    width: 100px;
+    padding: 0px;
+    margin: 10px;
+    
+}
+
+.gamePanelMenu a{
+    text-align: center;
+}
+
+.esportsPanelMenu{
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.esportsPanelMenu a{
+    text-align: center;
+}
+
+.container-fluid{
+    padding-left: 0px!important;
+    padding-right: 9px!important;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    background: #000000d3;
+}
+
+.card{
+    background: #01275600!important;
+    word-wrap: none;
+    border: none!important;
+}
+
+.borderNotices{
+    border: 1px solid rgba(255, 255, 255, 0.116)!important;
+}
+
+.card-img{
+    padding: 20px;
+}
+
+/*//////////////////*/
+
+
+
+
+/*//////////////////*/
+@font-face {
+    font-family: 'fontawesome';
+    src:url('../fonts/fontawesome-webfont.eot');
+    src:url('../fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+        url('../fonts/fontawesome-webfont.woff') format('woff'),
+        url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('../fonts/fontawesome-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*//////////////////*/
